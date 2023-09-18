@@ -1,0 +1,154 @@
+body {
+    background-color: #EDF2F4;
+    font-family: 'Oswald', sans-serif;
+    
+}
+
+#header {
+    text-align: center;
+    padding: 5px;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    font-size: 39px;
+    width: 300px;
+    color: #2B2D42;
+    border-radius: 50px;
+    background: #EDF2F4;
+    box-shadow:  25px 25px 40px #c9cecf,
+                -25px -25px 40px #ffffff;
+    color: transparent;
+    background: #9d9d9d;
+    -webkit-background-clip: text;
+    text-shadow: 2px 5px 5px 
+            rgba(255, 255, 255, 0.452);
+}
+
+.first-page {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.second-page {
+    display: flex;
+}
+
+.shoppingList {
+    display: block;
+    width: 410px;
+    height: 410px;
+    margin: 5%;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #d5dadc, #feffff);
+    box-shadow:  41px 41px 82px #c9cecf,
+             -41px -41px 82px #ffffff;
+}
+
+.addAndList {
+    display: flex;
+}
+
+.flexThis {
+    display: flex;
+}
+
+#addItem {
+    margin: auto;
+    padding: 1px;
+    height: 30px;
+    width: 150px;
+    margin-bottom: 10px;
+    display: flex;
+    text-align: center;
+    border: none;
+    background-color:transparent;
+    outline: none;
+    font-weight: bold;
+    color: #EF233C;
+}
+
+#addAmount {
+    margin: auto;
+    padding: 1px;
+    height: 30px;
+    width: 150px;
+    margin-bottom: 10px;
+    display: flex;
+    text-align: center;
+    border: none;
+    background-color:transparent;
+    outline: none;
+    font-weight: bold;
+    color: #EF233C;
+}
+
+#addItem::placeholder {
+    color: #8D99AE;
+}
+#addAmount::placeholder {
+    color: #8D99AE;
+}
+
+#checkBox {
+    position: relative;
+    height: 1.8em;
+    width: 1.8em;
+    margin-right: auto;
+    background-color: #ccc;
+    border-radius: 50%;
+    background: #EDF2F4;
+    box-shadow: 3px 3px 5px #c5c5c5,
+                -3px -3px 5px #ffffff;
+}
+
+#checkBox {
+  box-shadow: inset 3px 3px 5px #c5c5c5,
+              inset -3px -3px 5px #ffffff;
+}
+
+.addTextGroup {
+    display: grid;
+    grid-template-rows: 1fr;
+    padding: 10px;
+    margin-left: 100px;
+    margin-top: 150px;
+    margin-bottom: 200px;
+    justify-items: center;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #d5dadc, #feffff);
+    box-shadow:  30px 30px 61px #c9cecf,
+             -30px -30px 61px #ffffff;
+}
+
+#addButton {
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    border: none;
+    background-color:transparent;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+    color: green;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #feffff, #d5dadc);
+    box-shadow:  3px 3px 5px #c9cecf,
+             -3px -3px 5px #ffffff;
+}
+
+#addButton:active {
+    border-radius: 50px;
+    background: #EDF2F4;
+    box-shadow: inset 3px 3px 5px #c9cecf,
+            inset -3px -3px 5px #ffffff;
+}
+
+.showItemWithCheckbox {
+    color: #2B2D42;
+}
+
+.output1 {
+    display: block;
+
+}
